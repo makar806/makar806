@@ -15,6 +15,7 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: makar806
+          github_token: ${{ secrets.SNK_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-dark
 
